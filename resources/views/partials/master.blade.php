@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<html
-    data-wf-domain=""
-    data-wf-page="5ffcd643561bc237357a87a0"
-    data-wf-site="5ffcd643561bc26ed27a87a1"
-    class="w-mod-js w-mod-ix wf-dmsans-n4-active wf-dmsans-n5-active wf-dmsans-n7-active wf-fahkwang-n7-active wf-dmsans-i4-active wf-fahkwang-n4-active wf-fahkwang-n5-active wf-fahkwang-n6-active wf-active"
->
+<html data-wf-page="603d60162e21fb7781216fb8" data-wf-site="603d60162e21fbd328216fb3">
     <head>
         <meta charset="utf-8" />
         <title>@yield('title') - OVERTHINK STUDIO</title>
@@ -45,10 +40,6 @@
         </style>
         <link href="/css/style.css" rel="stylesheet" type="text/css" />
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,700%7CFahkwang:regular,500,600,700" media="all" />
-        <script type="text/javascript">
-            WebFont.load({ google: { families: ["DM Sans:regular,italic,500,700", "Fahkwang:regular,500,600,700"] } });
-        </script>
         <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
         <script type="text/javascript">
             !(function (o, c) {
@@ -61,7 +52,7 @@
         <link href="" rel="apple-touch-icon" />
         <style>
             ::selection {
-                background-color: rgba(92, 49, 255, 0.99);
+                background-color: rgba(177, 0, 0, 0.99);
                 color: #ffffff;
                 text-shadow: none;
             }
@@ -69,6 +60,60 @@
     </head>
     <body>
         @yield('content')
+        <div class="overflow">
+            <div class="global">
+                <div class="html w-embed">
+                    <style>
+                        /* Add all your CSS below */
+
+                        /* This converts everything that's EM to PX at 1440px & above screen sizes */
+                        @media only screen and (min-width: 1440px) {
+                            body {
+                                font-size: 14px;
+                            }
+                        }
+
+                        @media only screen and (min-width: 1920px) {
+                            .container.is--hero {
+                                min-height: auto;
+                                height: 100vh;
+                                max-height: 1000px;
+                            }
+                        }
+
+                        /* Homepage CSS */
+                        .hero__icon,
+                        .hero__card-text,
+                        .hero__gradient {
+                            pointer-events: none;
+                        }
+
+                        .hero__card {
+                            backdrop-filter: blur(2em);
+                            -webkit-backdrop-filter: blur(2em);
+                        }
+
+                        .hero__card-content {
+                            -webkit-mask-image: -webkit-radial-gradient(white, black);
+                        }
+                    </style>
+                </div>
+            </div>
+            <nav class="section is--nav" style="opacity: 1; transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                <div class="container is--nav">
+                    <a href="/" aria-current="page" class="nav__logo-link w-inline-block w--current">
+                        <img src="" loading="lazy" alt="" class="nav__logo-img" />
+                    </a>
+                    <div class="mav__right">
+                        <div class="nav__menu">
+                            <div class="nav__line" style="background-color: rgb(177, 0, 0); width: 61.421875px; transform: translateX(14px);"></div>
+                            <!-- <a data-color="#B10000" href="/" aria-current="page" class="nav__link w-inline-block w--current"><p class="nav__link-text">About</p></a> -->
+                            <!-- <a data-color="#B10000" href="" target="_blank" class="nav__link w-inline-block"><p class="nav__link-text">LinkedIn</p></a> -->
+                            <a data-color="#B10000" href="http://instagram.com/overthink.studio" target="_blank" class="nav__link w-inline-block"><p class="nav__link-text">Instagram</p></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         <script
             src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5ffcd643561bc26ed27a87a1"
             type="text/javascript"
@@ -108,10 +153,11 @@
                 }
             });
         </script>
-
+        
         <main role="main" class="main-content">
             <canvas id="noise" class="noise" width="1440" height="814"></canvas>
         </main>
+
         <style>
             .main-content {
                 z-index: 9999999999;
@@ -136,6 +182,7 @@
                 opacity: 0.05;
             }
         </style>
+
         <script>
             const noise = () => {
                 let canvas, ctx;

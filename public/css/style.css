@@ -179,9 +179,7 @@ th {
     padding: 0;
 }
 
-/* ==========================================================================
-   Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
-   ========================================================================== */
+
 @font-face {
     font-family: "webflow-icons";
     src: url("data:application/x-font-ttf;charset=utf-8;base64,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")
@@ -189,6 +187,28 @@ th {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family:"BasisGrotesquePro-Medium";
+    src:url("/fonts/basis/Basis Grotesque Pro Medium.woff2") format("woff2"),url("/fonts/basis/Basis Grotesque Pro Medium.woff") format("woff"),url("/fonts/basis/Basis Grotesque Pro Medium.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"BasisGrotesquePro-Regular";
+    src:url("/fonts/basis/Basis Grotesque Pro Regular.woff2") format("woff2"),url("/fonts/basis/Basis Grotesque Pro Regular.woff") format("woff"),url("/fonts/basis/Basis Grotesque Pro Regular.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+@font-face {
+    font-family:"BasisGrotesquePro-Light";
+    src:url("/fonts/basis/Basis Grotesque Pro Light.woff2") format("woff2"),url("/fonts/basis/Basis Grotesque Pro Light.woff") format("woff"),url("/fonts/basis/Basis Grotesque Pro Light.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+@font-face {
+    font-family:"BasisGrotesquePro-Bold";
+    src:url("/fonts/basis/Basis Grotesque Pro Bold.woff2") format("woff2"),url("/fonts/basis/Basis Grotesque Pro Bold.woff") format("woff"),url("/fonts/basis/Basis Grotesque Pro Bold.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
 [class^="w-icon-"],
 [class*=" w-icon-"] {
     font-family: "webflow-icons" !important;
@@ -269,9 +289,9 @@ html.w-mod-touch * {
 }
 .w-button {
     display: inline-block;
-    padding: 9px 15px;
-    background-color: #3898ec;
-    color: white;
+    padding: 10px 25px;
+    /* background-color: #3898ec; */
+    color: Black;
     border: 0;
     line-height: inherit;
     text-decoration: none;
@@ -284,100 +304,8 @@ input.w-button {
 html[data-w-dynpage] [data-w-cloak] {
     color: transparent !important;
 }
-.w-webflow-badge,
-.w-webflow-badge * {
-    position: static;
-    left: auto;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    z-index: auto;
-    display: block;
-    visibility: visible;
-    overflow: visible;
-    overflow-x: visible;
-    overflow-y: visible;
-    box-sizing: border-box;
-    width: auto;
-    height: auto;
-    max-height: none;
-    max-width: none;
-    min-height: 0;
-    min-width: 0;
-    margin: 0;
-    padding: 0;
-    float: none;
-    clear: none;
-    border: 0 none transparent;
-    border-radius: 0;
-    background: none;
-    background-image: none;
-    background-position: 0 0;
-    background-size: auto auto;
-    background-repeat: repeat;
-    background-origin: padding-box;
-    background-clip: border-box;
-    background-attachment: scroll;
-    background-color: transparent;
-    box-shadow: none;
-    opacity: 1;
-    transform: none;
-    transition: none;
-    direction: ltr;
-    font-family: inherit;
-    font-weight: inherit;
-    color: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    font-style: inherit;
-    font-variant: inherit;
-    text-align: inherit;
-    letter-spacing: inherit;
-    text-decoration: inherit;
-    text-indent: 0;
-    text-transform: inherit;
-    list-style-type: disc;
-    text-shadow: none;
-    font-smoothing: auto;
-    vertical-align: baseline;
-    cursor: inherit;
-    white-space: inherit;
-    word-break: normal;
-    word-spacing: normal;
-    word-wrap: normal;
-}
-.w-webflow-badge {
-    position: fixed !important;
-    display: inline-block !important;
-    visibility: visible !important;
-    z-index: 2147483647 !important;
-    top: auto !important;
-    right: 12px !important;
-    bottom: 12px !important;
-    left: auto !important;
-    color: #aaadb0 !important;
-    background-color: #fff !important;
-    border-radius: 3px !important;
-    padding: 6px 8px 6px 6px !important;
-    font-size: 12px !important;
-    opacity: 1 !important;
-    line-height: 14px !important;
-    text-decoration: none !important;
-    transform: none !important;
-    margin: 0 !important;
-    width: auto !important;
-    height: auto !important;
-    overflow: visible !important;
-    white-space: nowrap;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-.w-webflow-badge > img {
-    display: inline-block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    vertical-align: middle !important;
-}
+
+
 h1,
 h2,
 h3,
@@ -504,13 +432,14 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
 }
+
 .w-input,
 .w-select {
     display: block;
     width: 100%;
-    height: 38px;
+    height: 48px;
     padding: 8px 12px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     font-size: 14px;
     line-height: 1.42857143;
     color: #333333;
@@ -1922,11 +1851,8 @@ textarea.w-select {
     display: none !important;
 }
 
-/* ==========================================================================
-   Start of custom Webflow CSS
-   ========================================================================== */
 body {
-    background-color: #0d0628;
+    background-color: #000;
     font-family: "DM Sans", sans-serif;
     color: #eeedf2;
     font-size: 1vw;
@@ -1937,7 +1863,7 @@ body {
 h1 {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: Fahkwang, sans-serif;
+    font-family: "BasisGrotesquePro-Bold";
     font-size: 6.2em;
     line-height: 0.9375;
     font-weight: 700;
@@ -1948,7 +1874,7 @@ h1 {
 h2 {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: Fahkwang, sans-serif;
+    font-family: "BasisGrotesquePro-Bold";
     font-size: 2.3em;
     line-height: 1.1;
     font-weight: 700;
@@ -2198,7 +2124,7 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: Grifter, sans-serif;
+    font-family: BasisGrotesquePro-Regular;
     color: #eeedf2;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -2407,11 +2333,11 @@ blockquote {
     position: relative;
     width: 100%;
     height: 42em;
-    background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(13, 6, 40, 0) 72%, #0d0628), -webkit-gradient(linear, right top, left top, from(#0d0628), color-stop(4%, rgba(13, 6, 40, 0))),
+    /* background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(13, 6, 40, 0) 72%, #0d0628), -webkit-gradient(linear, right top, left top, from(#0d0628), color-stop(4%, rgba(13, 6, 40, 0))),
         -webkit-gradient(linear, left top, right top, from(#0d0628), color-stop(4%, rgba(13, 6, 40, 0))), -webkit-gradient(linear, left bottom, left top, from(#0d0628), color-stop(4%, rgba(13, 6, 40, 0)), to(rgba(13, 6, 40, 0))),
         -webkit-gradient(linear, left top, left bottom, from(#0d0628), color-stop(4%, rgba(13, 6, 40, 0)), to(rgba(13, 6, 40, 0)));
     background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(13, 6, 40, 0) 72%, #0d0628), linear-gradient(270deg, #0d0628, rgba(13, 6, 40, 0) 4%), linear-gradient(90deg, #0d0628, rgba(13, 6, 40, 0) 4%),
-        linear-gradient(0deg, #0d0628, rgba(13, 6, 40, 0) 4%, rgba(13, 6, 40, 0)), linear-gradient(180deg, #0d0628, rgba(13, 6, 40, 0) 4%, rgba(13, 6, 40, 0));
+        linear-gradient(0deg, #0d0628, rgba(13, 6, 40, 0) 4%, rgba(13, 6, 40, 0)), linear-gradient(180deg, #0d0628, rgba(13, 6, 40, 0) 4%, rgba(13, 6, 40, 0)); */
 }
 
 .hero__gradient {
@@ -2425,7 +2351,7 @@ blockquote {
     height: 200em;
     margin-right: -135.7em;
     margin-bottom: -133.1em;
-    background-image: radial-gradient(circle farthest-corner at 50% 50%, #5c31ff, rgba(92, 49, 255, 0) 69%);
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, #B10000, rgba(177, 0, 0, 0) 69%);
     opacity: 0.9;
 }
 
@@ -2434,7 +2360,7 @@ blockquote {
     height: 160em;
     margin-right: -40.6em;
     margin-bottom: -133.7em;
-    background-image: radial-gradient(circle farthest-corner at 50% 50%, #f88cd4, rgba(248, 140, 212, 0) 69%);
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, #B10000, rgba(177, 0, 0, 0) 69%);
     opacity: 0.73;
 }
 
@@ -2464,10 +2390,10 @@ blockquote {
 .hero__card {
     position: relative;
     width: 38em;
-    height: 24em;
-    min-width: 38em;
+    /* height: 24em; */
+    /* min-width: 38em; */
     border-style: solid;
-    border-width: 2px;
+    border-width: 5px;
     border-color: rgba(238, 237, 242, 0.18) rgba(238, 237, 242, 0.34) rgba(238, 237, 242, 0.34);
     border-radius: 2em;
     background-image: linear-gradient(144deg, rgba(238, 237, 242, 0.3), hsla(0, 0%, 100%, 0) 43%);
@@ -2919,3 +2845,87 @@ blockquote {
     font-display: swap;
 }
 
+
+.form {
+    position: relative;
+}
+.w-form {
+    margin: 0px 0px 15px;
+}
+
+.flex-wrapper{
+    margin-top:10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 18px;
+
+}
+
+
+.flex-form{
+    height: 100%;
+    width: 55%;
+    justify-content: flex-start;
+
+}
+
+.text-field {
+    height: 64px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    background-color: #fff;
+    font-family: BasisGrotesquePro-Light;
+    font-size: 18px;
+}
+.submit-button {
+    position: absolute;
+    left: auto;
+    top: 8.5%;
+    right: 1%;
+    bottom: 0%;
+    height: 54px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: #fff;
+    font-family: Montserrat, sans-serif;
+    color: #B10000;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 479px){
+    .flex-wrapper {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        padding-right: 1em;
+        padding-left: 1em;
+        font-size: 1px;
+    }
+    .submit-button {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .flex-form{
+        width: 100%;
+    }
+}
