@@ -73,28 +73,21 @@
                     </div>
                     <div class="hero__right">
                         <div
-                            data-poster-url="https://assets.website-files.com/5ffcd643561bc26ed27a87a1/5ffcd85058323b1a1485dae4_blue-bg-poster-00001.jpg"
-                            data-video-urls="https://assets.website-files.com/5ffcd643561bc26ed27a87a1/5ffcd85058323b1a1485dae4_blue-bg-transcode.mp4,https://assets.website-files.com/5ffcd643561bc26ed27a87a1/5ffcd85058323b1a1485dae4_blue-bg-transcode.webm"
+                            data-poster-url="videos/loop0001-poster-00001.jpg"
+                            data-video-urls="videos/loop0001-transcode.mp4,videos/loop0001-transcode.webm"
                             data-autoplay="true"
                             data-loop="true"
                             data-wf-ignore="true"
                             class="hero__video w-background-video w-background-video-atom"
                         >
-                            <!-- <video
-                                autoplay=""
-                                loop=""
-                                style="background-image: url('https://assets.website-files.com/5ffcd643561bc26ed27a87a1/5ffcd85058323b1a1485dae4_blue-bg-poster-00001.jpg');"
-                                muted=""
-                                playsinline=""
-                                data-wf-ignore="true"
-                                data-object-fit="cover">
-                                <source src="https://assets.website-files.com/5ffcd643561bc26ed27a87a1/5ffcd85058323b1a1485dae4_blue-bg-transcode.mp4" data-wf-ignore="true" />
-                                <source src="https://assets.website-files.com/5ffcd643561bc26ed27a87a1/5ffcd85058323b1a1485dae4_blue-bg-transcode.webm" data-wf-ignore="true" />
-                            </video> -->
+                            <video autoplay="" loop="" style="background-image: url('videos/loop0001-poster-00001.jpg');" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                                <source src="videos/loop0001-transcode.mp4" data-wf-ignore="true" />
+                                <source src="videos/loop0001-transcode.webm" data-wf-ignore="true" />
+                            </video>
                         </div>
                         <div class="hero__gradient"></div>
                         <div class="hero__gradient is--other"></div>
-                        <div class="hero__card-contain">
+                        <!-- <div class="hero__card-contain">
                             <div class="hero__card">
                             <div class="hero__card-content">
                                 <div class="hero__card-text">
@@ -103,7 +96,7 @@
                                 <div class="hero__card-shine"></div>
                             </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
