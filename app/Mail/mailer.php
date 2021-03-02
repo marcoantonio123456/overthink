@@ -30,6 +30,6 @@ class mailer extends Mailable
      */
     public function build()
     {
-        return $this->view('test');
+        return $this->markdown('emails.welcomeMailer');
     }
 }

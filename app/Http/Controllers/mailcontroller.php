@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\WelcomeMail;
 use App\Mail\mailer;
 ;
 class mailcontroller extends Controller
@@ -19,13 +20,13 @@ class mailcontroller extends Controller
         'type' => 'admin'];
 
         //Goes to admin
-        Mail::to('marco@overthink.studio')->send(new mailer($details));
+        Mail::to('marco@overthink.studio')->send(new WelcomeMail($details));
 
         //Goes to user
         $details = ['email' => $clientEmail,
-        'subject' => 'New submission for to user',
+        'subject' => 'Thank you',
         'type' => 'user']; 
-        Mail::to($clientEmail)->send(new mailer($details));
+        Mail::to($clientEmail)->send(new WelcomeMail($details));
 
         return redirect()->to('/')
             ->with('message', "Thanks, we'll stay in touch");
