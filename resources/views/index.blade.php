@@ -36,16 +36,19 @@
                                 name="email-form" 
                                 data-name="Email Form" 
                                 class="form"
+                                action="/form/1"
+                                method="POST"
                         >
+                        @csrf
                             <input 
                                 type="email" 
                                 class="text-field w-input" 
                                 maxlength="256" 
-                                name="email" 
+                                name="email-2" 
                                 data-name="Email" 
                                 data-ix="move-into-view-delay-2" 
                                 placeholder="Email" 
-                                id="email" 
+                                id="email-2" 
                                 required="" 
                                 style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px); transition: opacity 1200ms, transform 1200ms;">
 
@@ -57,6 +60,12 @@
                                 data-ix="move-into-view-delay-2" 
                                 style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px); transition: opacity 1200ms, transform 1200ms;">
                         </form>
+                        
+                        @if(session()->has('message'))
+                            <div class="alert alert-success">
+                                {{ session()->get('message') }}
+                            </div>
+                        @endif
                     </div>
                 </div>
 
